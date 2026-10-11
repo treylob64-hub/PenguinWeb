@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Giant Penguin Page 🐧</title>
+    
+    <style>
+        /* === GLOBAL STYLES === */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2fe; /* Light icy blue background */
+            color: #1e293b; /* Dark slate text color for readability */
+        }
+
+        /* === HEADER STYLES === */
+        header {
+            background: #0f172a; /* Deep penguin-black header background */
+            color: #f8fafc; /* Crisp snowy white text */
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        /* === THE GIANT PENGUIN === */
+        /* This makes the penguin significantly bigger than Scratch Cat (who is roughly 90x90 pixels) */
+        .giant-penguin {
+            font-size: 15rem; /* Massive size adjustment! */
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            /* Simple hover animation to make the giant penguin look alive */
+            transition: transform 0.3s ease; 
+            cursor: pointer;
+        }
+        
+        /* When you hover your mouse over the massive penguin, it tilts slightly */
+        .giant-penguin:hover {
+            transform: scale(1.05) rotate(5deg);
+        }
+
+        /* === NAVIGATION STYLES === */
+        nav {
+            text-align: center;
+            background: #0284c7; /* Ocean blue navigation bar */
+            padding: 0.7rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #bae6fd; /* Light ice blue color when hovering over links */
+        }
+
+        /* === MAIN CONTENT BOX === */
+        main {
+            padding: 30px;
+            max-width: 800px;
+            margin: 30px auto;
+            background: #ffffff; /* White card to contrast against the icy blue background */
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Soft shadow for a modern look */
+            border-top: 8px solid #0284c7; /* Matching blue accent border at the top */
+        }
+
+        /* === SPECIAL HIGHLIGHT BOX === */
+        .fact-box {
+            background-color: #f0f9ff;
+            border-left: 5px solid #38bdf8;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        h2, h3 {
+            color: #0369a1; /* Ocean blue headers */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section containing the massive penguin -->
+    <header>
+        <!-- This is the giant penguin class styled in the CSS above -->
+        <span class="giant-penguin" title="I am way bigger than Scratch Cat!">🐧</span>
+        <h1>The Giant Penguin Pavilion</h1>
+        <p>Scratch Cat stands no chance against this absolute unit.</p>
+    </header>
+
+    <!-- Navigation Menu (Make sure to match these filenames in GitHub!) -->
+    <nav>
+        <!-- Links back to your homepage -->
+        <a href="index.html">Home</a>
+        <!-- Links to this current page -->
+        <a href="about.html">Giant Penguin</a>
+    </nav>
+
+    <!-- Core Page Content -->
+    <main>
+        <h2>Welcome to the Mega-Penguin Territory!</h2>
+        <p>If Scratch Cat is typically around 90 to 100 pixels tall on a standard Scratch stage, this giant emoji penguin towers over it completely at a massive CSS scale.</p>
+        
+        <!-- Highlighted Fact Area -->
+        <div class="fact-box">
+            <h3>💡 Massive Scale Note</h3>
+            <p>You can change how big the penguin is by modifying the <code>font-size: 15rem;</code> property inside the <code>.giant-penguin</code> section of the CSS rules above!</p>
+        </div>
+
+        <h3>Fun Features of this Code:</h3>
+        <ul>
+            <li><strong>Fully Commented:</strong> Check out the code above to see how variables, classes, and layout structures work.</li>
+            <li><strong>Hover Effect:</strong> Move your cursor over the giant penguin at the top to watch it tilt and grow even larger!</li>
+            <li><strong>Responsive Layout:</strong> It automatically shrinks gracefully if viewed on a mobile device or tablet.</li>
+        </ul>
+    </main>
+
+</body>
+</html>
